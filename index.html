@@ -9,15 +9,19 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#about">Sobre Friends</a></li>
-                <li><a href="#characters">Personajes</a></li>
-                <li><a href="#quotes">Frases y Curiosidades</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
+            <div class="nav-container">
+                <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+                <ul class="nav-list">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Sobre Friends</a></li>
+                    <li><a href="#characters">Personajes</a></li>
+                    <li><a href="#quotes">Frases y Curiosidades</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
+
     <main>
         <section id="home">
             <h1>Bienvenido al mundo de Friends</h1>
@@ -66,8 +70,11 @@
             <p>¿Sabías que Courteney Cox originalmente audicionó para el papel de Rachel? O que el famoso sofá naranja fue encontrado en un sótano de Warner Bros?</p>
         </section>
     </main>
+
     <footer>
         <p>&copy; 2025 Página dedicada a Friends. Todos los derechos reservados.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
